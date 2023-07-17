@@ -22,4 +22,4 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
 
-// Truy cập http://localhost:3000
+// http://localhost:3000
