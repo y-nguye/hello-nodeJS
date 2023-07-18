@@ -1,0 +1,8 @@
+.p-5
+    form(action="/news")
+        .mb-3
+            label.form-label(for='exampleInputKeyWords') Search
+            input#exampleInputKeyWords.form-control(type='text' name='q' placeholder='Nhập từ khoá')
+        button.btn.btn-primary(type='submit') Tìm kiếm
+//- form mặc định là method="GET"
+//- action là hành vi chuyển route, ở đây sẽ chuyển sang route news
