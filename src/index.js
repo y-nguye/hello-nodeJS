@@ -24,6 +24,11 @@ app.get("/news", (req, res) => {
   res.render("news");
 });
 
+app.get("/search", (req, res) => {
+  console.log("XXXXXXXXXXXX", req.query.q); // XXXXXXXXXXXX Hoai Y
+  res.render("search");
+});
+
 // Route định nghĩa ra lộ trình, điểm truy cập cho website
 
 // Lắng nghe cổng 3000 trên trình duyệt
