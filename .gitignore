@@ -1,3 +1,3 @@
 #  Ngăn chặn những file này update lên github
 src/public/css
-node_modules/
+node_modules
